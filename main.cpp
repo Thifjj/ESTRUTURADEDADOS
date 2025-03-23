@@ -6,6 +6,7 @@ int main()
 {
     ListaEncadeada<int> lista;
     inicializaLista(lista);
+    inicializaLista(lista);
     
     inserirElementoInicio(lista, 10);
     inserirElementoInicio(lista, 5);
