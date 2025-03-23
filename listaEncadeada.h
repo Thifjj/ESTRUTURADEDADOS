@@ -149,7 +149,7 @@ void removePosicao(ListaEncadeada<TIPO> &lista, int posicao)
     if (posicao == 0)
     {
         lista.inicio = aux->proximo; // Atualiza o início da lista
-        delete aux; // Libera a memória do nó removido
+        delete aux;                  // Libera a memória do nó removido
         return;
     }
 
@@ -170,5 +170,4 @@ void removePosicao(ListaEncadeada<TIPO> &lista, int posicao)
     // Remove o elemento e ajusta os ponteiros
     anterior->proximo = aux->proximo;
     delete aux; // Libera a memória do nó removido
-}
-
+};
