@@ -10,6 +10,8 @@ int main()
     
     inserirElementoInicio(lista, 10);
     inserirElementoInicio(lista, 5);
+    inserirElementoInicio(lista, 5);
+    inserirElementoInicio(lista, 5);
     insereFinal(lista, 20);
     insereFinal(lista, 30);
     inserePosicao(lista, 15, 2);
